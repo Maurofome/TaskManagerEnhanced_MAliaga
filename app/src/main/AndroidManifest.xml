@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TaskManager_MAliaga">
         <activity
+            android:name=".activity_detalle"
+            android:exported="false" />
+        <activity
             android:name=".activity_revisar"
             android:exported="false" />
         <activity
