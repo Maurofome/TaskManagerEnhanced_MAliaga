@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "591230173606",
+    "project_id": "maliagataskmanager",
+    "storage_bucket": "maliagataskmanager.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591230173606:android:1c4d21a770c70b6a9c4f67",
+        "android_client_info": {
+          "package_name": "com.example.taskmanager_maliaga"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl4Cr6BvbUKcc6pKCKGo8UKGjWLKvAMPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
