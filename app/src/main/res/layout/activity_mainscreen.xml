@@ -12,7 +12,7 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="60dp"
         android:fontFamily="sans-serif-condensed"
         android:text="The Cat greets you"
         android:textColor="#FFFFFF"
@@ -24,19 +24,32 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
         app:srcCompat="@drawable/cat"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerTareas"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:padding="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:listitem="@android:layout/simple_list_item_2" />
+
     <Button
         android:id="@+id/button3"
         android:layout_width="0dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="30dp"
         android:backgroundTint="#6200EE"
         android:text="Continuar"
         android:textColor="#FFFFFF"
